@@ -24,4 +24,4 @@ also tracked.
 
 # Installing
 Download the appropriate .jar file in the releases section or alternatively compile it yourself using `.\gradlew build`. 
-Put the .jar in your minecraft mods folder. 
+Put the .jar along with fabric API in your minecraft mods folder. 
