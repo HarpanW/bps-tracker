@@ -3,7 +3,7 @@
   "id": "bpsmod",
   "version": "${version}",
   "name": "BPS Tracker",
-  "description": "A lightweight client-side mod to track blocks (broken) per second.",
+  "description": "A lightweight client-side mod to track (broken) blocks per second.",
   "authors": [
     "Harpan"
   ],
