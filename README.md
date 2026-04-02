@@ -7,7 +7,7 @@ A lightweight fabric mod that tracks broken Blocks Per Second (BPS).
 
 >Any block that is insta-broken is tracked by detecting client side 
 packets. Since this mod is intended for hypixel skyblock farming,
-`PlayerActionC2SPacket.Action.START_DESTROY_BLOCK` sent on cactus is 
+`ServerboundPlayerActionPacket.Action.START_DESTROY_BLOCK` sent on cactus is 
 also tracked.
 
 # Requirements
@@ -23,5 +23,5 @@ also tracked.
 | /bps-hide  |    Hides the HUD     |
 
 # Installing
-Download the .jar file in the releases section or alternatively compile it yourself using `.\gradlew build`. 
+Download the appropriate .jar file in the releases section or alternatively compile it yourself using `.\gradlew build`. 
 Put the .jar in your minecraft mods folder. 
